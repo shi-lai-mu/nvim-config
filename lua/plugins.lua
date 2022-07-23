@@ -13,15 +13,27 @@ return require('packer').startup({
 	function()
 		use 'wbthomason/packer.nvim'-- Packer can manage itself
 		
-		-- 字体
-		use {
+		------------------------------------
+		--      编 辑    基 本 配 置      --
+		------------------------------------
+
+		-- 字体 替换为下面两个插件
+		--[[ use {
         	"vim-airline/vim-airline",
         	requires = {
           		"vim-airline/vim-airline-themes",
           		--综合图标支持such vim-airline lightline, vim-startify
           		"ryanoasis/vim-devicons"
         	}
-  		}
+  		} ]]
+
+		--状态栏插件
+      	use {
+        	"nvim-lualine/lualine.nvim",
+        	requires = {"kyazdani42/nvim-web-devicons", opt = true}
+      	}
+      	-- bufferline 显示标签页,与lualine配合使用
+	    use "akinsho/bufferline.nvim"
 
 		-- 主题
 		use "sainnhe/gruvbox-material"
@@ -64,6 +76,44 @@ return require('packer').startup({
 				"rafamadriz/friendly-snippets" --代码段合集
 			}
 		}
+
+		-- 自动为尚不支持 Neovim 0.5 内置 lsp 客户端的配色方案创建缺少的 LSP 诊断突出显示组。
+		use "folke/lsp-colors.nvim"
+		
+		-- 基于neovim 内置lsp 的轻量级lsp 插件，具有高性能UI。非常酷
+		use 'rinx/lspsaga.nvim'
+		
+		-- 显示css的颜色代码的颜色
+		use "ap/vim-css-color"
+
+		-- 符号自动匹配，比如：输入(自动闭合）
+		use "windwp/nvim-autopairs"
+
+		-- 文件搜索 预览 等
+		use {
+			"nvim-telescope/telescope.nvim",
+    		requires = {
+      			"nvim-lua/plenary.nvim",
+      			"kyazdani42/nvim-web-devicons"
+    		}
+		}
+
+		-- 加速文件搜索速度,如果安装失败需要到插件目录执行make命令手动编译
+		-- 用了这个插件以后，貌似更快了(感觉输入更跟手了，可能是心理作用)。但是对于我的小项目感受不是很明显
+		use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
+		
+		--语法高亮
+		use {
+        	'nvim-treesitter/nvim-treesitter',
+        	run = ':TSUpdate'
+    	}
+
+		--注释插件
+      	use "b3nj5m1n/kommentary"
+      
+		--jsx注释
+      	use "JoosepAlviste/nvim-ts-context-commentstring"
+
 
 	end,
 	config = {

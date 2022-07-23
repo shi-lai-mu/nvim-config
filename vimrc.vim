@@ -39,6 +39,8 @@ set wildmenu
 " 不需要备份文件
 set nobackup
 
+" 开启真彩色
+set termguicolors
 "----vim 个人使用习惯配置end------
 
 "ssh 远程粘贴板
