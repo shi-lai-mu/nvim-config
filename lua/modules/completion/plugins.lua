@@ -40,7 +40,7 @@ completion["hrsh7th/nvim-cmp"] = {
 		{ "lukas-reineke/cmp-under-comparator" },
 		{ "saadparwaiz1/cmp_luasnip", after = "LuaSnip" },
 		{ "hrsh7th/cmp-nvim-lsp", after = "cmp_luasnip" }, --neovim 内置 LSP 客户端的 nvim-cmp 源
-		{ "hrsh7th/cmp-nvim-lua", after = "cmp-nvim-lsp" },, --nvim-cmp source for neovim Lua API.
+		{ "hrsh7th/cmp-nvim-lua", after = "cmp-nvim-lsp" }, --nvim-cmp source for neovim Lua API.
 		{ "andersevenrud/cmp-tmux", after = "cmp-nvim-lua" },
 		{ "hrsh7th/cmp-path", after = "cmp-tmux" },
 		{ "f3fora/cmp-spell", after = "cmp-path" },--nvim-cmp 的拼写源基于 vim 的拼写建议

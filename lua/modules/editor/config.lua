@@ -419,10 +419,4 @@ function config.better_escape()
 	})
 end
 
-function config.vim_rooter()
-    vim.cmd([[
-    let g:rooter_patterns = ['.git', 'Makefile', '*.sln', 'build/env.sh']
-        ]])
-end
-
 return config

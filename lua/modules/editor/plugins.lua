@@ -128,8 +128,6 @@ editor["luukvbaal/stabilize.nvim"] = {
 }
 editor["airblade/vim-rooter"] = {
     opt = true,
-    event = "BufWinEnter",
-    config = conf.vim_roiter,    
+    event = "BufReadPost",
 }
-
 return editor
