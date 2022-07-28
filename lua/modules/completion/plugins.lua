@@ -57,7 +57,10 @@ completion["hrsh7th/nvim-cmp"] = {
 completion["L3MON4D3/LuaSnip"] = {
 	after = "nvim-cmp",
 	config = conf.luasnip,
-	requires = "rafamadriz/friendly-snippets", --代码段合集
+	requires = {
+		{ "saadparwaiz1/cmp_luasnip" },     -- Snippets source for nvim-cmp
+		{ "rafamadriz/friendly-snippets" }, -- 代码段合集
+	},
 }
 completion["windwp/nvim-autopairs"] = {
 	after = "nvim-cmp",

@@ -40,7 +40,7 @@ local plug_map = {
 	["n|<space>8"] = map_cr("BufferLineGoToBuffer 8"):with_noremap():with_silent(), -- Tab8
 	["n|<space>9"] = map_cr("BufferLineGoToBuffer 9"):with_noremap():with_silent(), -- Tab9
 	-- Packer
-	-- ["n|<leader>ps"] = map_cr("PackerSync"):with_silent():with_noremap():with_nowait(),     暂时不需要
+	["n|<leader>ps"] = map_cr("PackerSync"):with_silent():with_noremap():with_nowait(),     -- 暂时不需要   
 	-- ["n|<leader>pu"] = map_cr("PackerUpdate"):with_silent():with_noremap():with_nowait(),   暂时不需要
 	-- ["n|<leader>pi"] = map_cr("PackerInstall"):with_silent():with_noremap():with_nowait(),  暂时不需要
 	-- ["n|<leader>pc"] = map_cr("PackerClean"):with_silent():with_noremap():with_nowait(),    暂时不需要
