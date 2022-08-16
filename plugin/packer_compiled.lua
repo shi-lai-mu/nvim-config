@@ -79,70 +79,30 @@ _G.packer_plugins = {
     path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
-  ["cmp-calc"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-calc",
-    url = "https://github.com/hrsh7th/cmp-calc"
-  },
-  ["cmp-emoji"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-emoji",
-    url = "https://github.com/hrsh7th/cmp-emoji"
-  },
-  ["cmp-look"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-look",
-    url = "https://github.com/octaltree/cmp-look"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["cmp-nvim-lua"] = {
+  ["colorbuddy.nvim"] = {
     loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
-    url = "https://github.com/hrsh7th/cmp-nvim-lua"
-  },
-  ["cmp-path"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-path",
-    url = "https://github.com/hrsh7th/cmp-path"
-  },
-  ["cmp-spell"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp-spell",
-    url = "https://github.com/f3fora/cmp-spell"
-  },
-  cmp_luasnip = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["defx-icons"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/defx-icons",
-    url = "https://github.com/kristijanhusak/defx-icons"
-  },
-  ["defx.nvim"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/defx.nvim",
-    url = "https://github.com/Shougo/defx.nvim"
-  },
-  ["friendly-snippets"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-    url = "https://github.com/rafamadriz/friendly-snippets"
-  },
-  ["gruvbox-material"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/gruvbox-material",
-    url = "https://github.com/sainnhe/gruvbox-material"
+    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
+    url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
     url = "https://github.com/onsails/lspkind-nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["neosolarized.nvim"] = {
+    loaded = true,
+    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
+    url = "https://github.com/svrana/neosolarized.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -154,35 +114,20 @@ _G.packer_plugins = {
     path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  rnvimr = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/rnvimr",
-    url = "https://github.com/kevinhwang91/rnvimr"
-  },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/vim-airline",
-    url = "https://github.com/vim-airline/vim-airline"
-  },
-  ["vim-airline-themes"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
-    url = "https://github.com/vim-airline/vim-airline-themes"
-  },
-  ["vim-choosewin"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/vim-choosewin",
-    url = "https://github.com/t9md/vim-choosewin"
-  },
-  ["vim-devicons"] = {
-    loaded = true,
-    path = "/Users/shilaimu/.local/share/nvim/site/pack/packer/start/vim-devicons",
-    url = "https://github.com/ryanoasis/vim-devicons"
   }
 }
 
